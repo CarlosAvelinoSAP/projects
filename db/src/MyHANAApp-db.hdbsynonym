@@ -1,0 +1,12 @@
+{
+  "APP_INTERACTIONS_INTERACTIONS_HEADER1": {
+    "target": {
+      "object": "APP_INTERACTIONS_INTERACTIONS_HEADER"
+    }
+  },
+  "APP_INTERACTIONS_INTERACTIONS_ITEMS1": {
+    "target": {
+      "object": "APP_INTERACTIONS_INTERACTIONS_ITEMS"
+    }
+  }
+}
