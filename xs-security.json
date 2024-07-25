@@ -1,5 +1,4 @@
-{
-  "xsappname": "myhanaapp",
+{  
   "tenant-mode": "dedicated",
   "scopes": [
       {

@@ -54,6 +54,8 @@ resources:
       path: ./xs-security.json
       service: xsuaa
       service-plan: application
+      service-keys: 
+        - name: MyHANAApp-key
   - name: MyHANAApp-db
     type: com.sap.xs.hdi-container
     parameters:
@@ -61,8 +63,6 @@ resources:
       service-plan: hdi-shared
     properties:
       hdi-container-name: ${service-name}
-  - name: cross-container-service-1
-    type: deleteme
 parameters:
   enable-parallel-deployments: true
 build-parameters:
